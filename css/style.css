@@ -71,6 +71,7 @@ select{
 
 footer{
     background-color: #202121;
+    text-align: center;
 }
 
 .picture{
@@ -93,4 +94,16 @@ footer{
 
 .description h3{
     font-size: 24px;
+}
+
+@media screen and (max-width: 500px) {
+    .formContainer{
+        float: none;
+        margin: auto;
+    }
+    
+    footer{
+        text-align: center;
+        padding-top:  30px;
+    }
 }
